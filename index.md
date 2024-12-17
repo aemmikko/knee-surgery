@@ -22,6 +22,6 @@ need to do this...oops
 <hr>
 
 <h1>Games</h1>
-<a href="./navigation/snake.md">
+<a href="{{site.baseurl}}/snake">
   <button>Snake Game</button>
 </a>
