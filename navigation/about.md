@@ -41,6 +41,9 @@ Some of my hobbies include:
    <li>Lunch</li>
 </ul>
 
+<hr>
+This is a button! It will lead to Slack.
+<br>
 <a href="https://app.slack.com/client/T05N4AYDXAM/C05MRMPUQGJ">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" alt="Slack">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" alt="Slack" style="width:10%">
 </a>
