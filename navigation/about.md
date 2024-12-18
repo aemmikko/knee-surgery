@@ -40,3 +40,7 @@ Some of my hobbies include:
    <li>Writing</li>
    <li>Lunch</li>
 </ul>
+
+<a href="https://app.slack.com/client/T05N4AYDXAM/C05MRMPUQGJ">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" alt="Slack">
+</a>
