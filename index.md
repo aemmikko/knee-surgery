@@ -17,7 +17,7 @@ hide: true
 <hr>
 
 <h1>Validate Jupyter Notebook</h1>
-need to do this...oops
+<button>Validate Notebook</button>
 
 <hr>
 
