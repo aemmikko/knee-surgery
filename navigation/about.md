@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<link rel="stylesheet" href="_sass/minima/custom-styles.css">
+<link rel="stylesheet" href="../_sass/minima/custom-styles.scss">
 
 <h1>About Me</h1>
 Hi! My name is Amalyn Kaikko. I'm a freshman at Del Norte Highschool. My mother is from Thailand and my father is from Finland. I was born in America, but I've visited both to see relatives.
