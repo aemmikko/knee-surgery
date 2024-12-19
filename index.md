@@ -10,7 +10,7 @@ hide: true
   <button>Verify</button>
 </a>
 <br>
-<a href="https://nighthawkcoders.github.io/portfolio_2025/devops/github/pages/play">
+<a href="_notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb">
   <button>Play</button>
 </a>
 
