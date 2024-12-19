@@ -6,7 +6,7 @@ hide: true
 ---
 
 <h1>Tools</h1>
-<a href="https://nighthawkcoders.github.io/portfolio_2025/devops/tools/verify">
+<a href="_notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb">
   <button>Verify</button>
 </a>
 <br>
