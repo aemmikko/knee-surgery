@@ -332,9 +332,9 @@ permalink: /snake/
             ctx.beginPath(); //starts the cirlce path
             ctx.arc(x * BLOCK + BLOCK / 2, y * BLOCK + BLOCK / 2, BLOCK / 2, 0, 2 * Math.PI); //draws the circle
             ctx.fill(); //fills the circle
-            ctx.strokeStyle = "#000000"; //sets the stroke color to black
+            ctx.strokeStyle = "#FFFFFF"; //sets the stroke color to white
             ctx.lineWidth = 2; //sets the lineweight for the stroke
-            ctx.stroke(); //draws a black stroke around the red circle
+            ctx.stroke(); //draws a white stroke around the red circle
         }
 
         let snakeDot = function(x, y) {
