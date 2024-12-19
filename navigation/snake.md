@@ -17,7 +17,7 @@ permalink: /snake/
         display: none;
         border-style: solid;
         border-width: 10px;
-        border-color: #48e076;
+        border-color: #000000;
     }
     canvas:focus{
         outline: none;
@@ -63,7 +63,7 @@ permalink: /snake/
     }
 
     #setting input:checked + label{
-        background-color: #59e384;
+        background-color: #000000;
         color: #000;
     }
 </style>
@@ -272,7 +272,7 @@ permalink: /snake/
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             // Paint snake
             for(let i = 0; i < snake.length; i++){
-                activeDot(snake[i].x, snake[i].y);
+                snakeDot(snake[i].x, snake[i].y);
             }
             // Paint food
             activeDot(food.x, food.y);
