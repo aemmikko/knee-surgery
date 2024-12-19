@@ -268,7 +268,7 @@ permalink: /snake/
             }
             // Repaint canvas
             ctx.beginPath();
-            ctx.fillStyle = "royalblue";
+            ctx.fillStyle = "#000000";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             // Paint snake
             for(let i = 0; i < snake.length; i++){
@@ -328,13 +328,18 @@ permalink: /snake/
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
         let activeDot = function(x, y) {
-            ctx.fillStyle = "#FF0000";
-            ctx.beginPath();
-            ctx.arc(x * BLOCK + BLOCK / 2, y * BLOCK + BLOCK / 2, BLOCK / 2, 0, 2 * Math.PI);
-            ctx.fill();
-            ctx.strokeStyle = "#000000";
-            ctx.lineWidth = 2;
-            ctx.stroke();
+            ctx.fillStyle = "#FF0000"; //set the fill color to red
+            ctx.beginPath(); //starts the cirlce path
+            ctx.arc(x * BLOCK + BLOCK / 2, y * BLOCK + BLOCK / 2, BLOCK / 2, 0, 2 * Math.PI); //draws the circle
+            ctx.fill(); //fills the circle
+            ctx.strokeStyle = "#000000"; //sets the stroke color to black
+            ctx.lineWidth = 2; //sets the lineweight for the stroke
+            ctx.stroke(); //draws a black stroke around the red circle
+        }
+
+        let snakeDot = function(x, y) {
+            ctx.fillStyle = "#00ff00"; // Set the fill color to green
+            ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK); // Draw a rectangle (a dot)
         }
         
         /* Random food placement */
