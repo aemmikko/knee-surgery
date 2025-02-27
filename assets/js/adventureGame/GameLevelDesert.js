@@ -139,7 +139,25 @@ class GameLevelDesert {
           ] 
         }
       };
-
+      //interactable spaceship
+    const spaceship = path + "/images/gamify/spaceship.png"; // be sure to include the path
+    const sprite_greet_spaceship = "Ready to go to space?";
+    const sprite_data_spaceship = {
+      id: 'Spaceship',
+      greeting: sprite_greet_spaceship,
+      src: sprite_src_spaceship,
+      SCALE_FACTOR: 8,
+      ANIMATION_RATE: 100,
+      pixels: {width: 500, height: 500},
+      INIT_POSITION: { x: (width * 1 / 4), y: (height * 3 / 4)}, // Adjusted position
+      orientation: {rows: 1, columns: 3 },
+      down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
+      hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
+      //makes the greeting when interacted
+      reaction: function() {
+        alert(sprite_greet_spaceship);
+      }
+    }
   /*  // NPC data for HTML Hank
 const sprite_src_htmlhank = path + "/images/gamify/htmlhank.png"; // be sure to include the path
 const sprite_data_htmlhank = {
@@ -178,6 +196,7 @@ const sprite_data_htmlhank = {
       { class: Npc, data: sprite_data_tux },
       { class: Npc, data: sprite_data_octocat },
       { class: Npc, data: sprite_data_robot },
+      { class: Npc, data: sprite_data_spaceship},
      // { class: Npc, data: sprite_data_htmlhank }, 
     ];
   }
