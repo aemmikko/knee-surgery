@@ -16,8 +16,8 @@ hide: true
 
 <hr>
 
-<h1>Validate Jupyter Notebook</h1>
-<button>Validate Notebook</button>
+<h1>Final Review</h1>
+##<a href=".">
 
 <hr>
 
