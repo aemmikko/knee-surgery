@@ -17,7 +17,9 @@ hide: true
 <hr>
 
 <h1>Final Review</h1>
-##<a href="{{site.baseurl}}/final">
+<a href="{{site.baseurl}}/final">
+  <button>Review Post</button>
+</a>
 
 <hr>
 
